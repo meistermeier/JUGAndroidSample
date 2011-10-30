@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <TextView android:id="@+id/book_name"
+              android:textSize="12pt"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/book_isbn"
+              android:textSize="8pt"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/book_online_button"
+            android:text="Show online"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <ScrollView android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        <TextView android:id="@+id/book_description"
+                  android:textSize="10pt"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+    </ScrollView>
+
+</LinearLayout>
